@@ -1,4 +1,3 @@
+# Proyecto para registros de vehiuclos
 
-# Las tablas utilizadas son con SQL-Server dichas son
-
-Propitearios, Vechiulo, Usuarios, mas catalogos necesarios
+Tablas: Propitearios, Vechiulo, Usuarios, mas catalogos necesarios
