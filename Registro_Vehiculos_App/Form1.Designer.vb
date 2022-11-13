@@ -24,12 +24,9 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-<<<<<<< HEAD
         Me.Button1 = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
-=======
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
->>>>>>> 119a2648b7d5a7eeb831e813daddd428f61b826f
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Label1
@@ -50,7 +47,6 @@ Partial Class Form1
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Label2"
         '
-<<<<<<< HEAD
         'Button1
         '
         Me.Button1.Location = New System.Drawing.Point(107, 192)
@@ -66,29 +62,22 @@ Partial Class Form1
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(242, 22)
         Me.TextBox1.TabIndex = 3
-=======
-        'CheckBox1
         '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(357, 208)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(97, 20)
-        Me.CheckBox1.TabIndex = 2
-        Me.CheckBox1.Text = "CheckBox1"
-        Me.CheckBox1.UseVisualStyleBackColor = True
->>>>>>> 119a2648b7d5a7eeb831e813daddd428f61b826f
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(140, 112)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(242, 22)
+        Me.TextBox2.TabIndex = 4
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-<<<<<<< HEAD
+        Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button1)
-=======
-        Me.Controls.Add(Me.CheckBox1)
->>>>>>> 119a2648b7d5a7eeb831e813daddd428f61b826f
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
@@ -103,6 +92,7 @@ Partial Class Form1
 <<<<<<< HEAD
     Friend WithEvents Button1 As Button
     Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextBox2 As TextBox
 =======
     Friend WithEvents CheckBox1 As CheckBox
 >>>>>>> 119a2648b7d5a7eeb831e813daddd428f61b826f
