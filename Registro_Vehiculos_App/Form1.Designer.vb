@@ -27,6 +27,8 @@ Partial Class Form1
         Me.Button1 = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -72,11 +74,31 @@ Partial Class Form1
         Me.Button2.Text = "Button2"
         Me.Button2.UseVisualStyleBackColor = True
         '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(457, 170)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(48, 16)
+        Me.Label3.TabIndex = 5
+        Me.Label3.Text = "Label3"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(499, 216)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(48, 16)
+        Me.Label4.TabIndex = 6
+        Me.Label4.Text = "Label4"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button1)
@@ -95,6 +117,8 @@ Partial Class Form1
     Friend WithEvents Button1 As Button
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Button2 As Button
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label4 As Label
 =======
     Friend WithEvents CheckBox1 As CheckBox
 >>>>>>> 119a2648b7d5a7eeb831e813daddd428f61b826f
