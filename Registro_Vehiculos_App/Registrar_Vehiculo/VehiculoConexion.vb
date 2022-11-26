@@ -2,10 +2,10 @@
 Imports System.Windows.Forms.VisualStyles.VisualStyleElement
 
 Public Class VehiculoConexion
-    Private _Conexion As SqlConnection = New SqlConnection("Data Source = DESKTOP-1TF7V40\SQLEXPRESS; Initial Catalog=Registro_Vehiculo; trusted_connection=true")
+    Private ReadOnly _Conexion As New SqlConnection("Data Source = DESKTOP-1TF7V40\SQLEXPRESS; Initial Catalog=Registro_Vehiculo; trusted_connection=true")
     Private _Comando As SqlCommand
     Private _Adapter As SqlDataAdapter
-    Private _Data As DataSet = New DataSet()
+    Private ReadOnly _Data As New DataSet()
     Private _Builder As SqlCommandBuilder
 
     Public Sub Vehiculo_Conectar()
