@@ -22,5 +22,455 @@ Registro_Vehiculos_App
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet.CantonDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet.ClaseDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet.DistritoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet.Padron_FisicoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet.Padron_JuridicoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet.PropietarioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet.ProvinciaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet.UsuarioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet.VehiculoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet.CantonRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet.ClaseRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet.DistritoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet.Padron_FisicoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet.Padron_JuridicoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet.PropietarioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet.ProvinciaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet.UsuarioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet.VehiculoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet.CantonRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet.ClaseRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet.DistritoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet.Padron_FisicoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet.Padron_JuridicoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet.PropietarioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet.ProvinciaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet.UsuarioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet.VehiculoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSetTableAdapters.CantonTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSetTableAdapters.ClaseTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSetTableAdapters.DistritoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSetTableAdapters.Padron_FisicoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSetTableAdapters.Padron_JuridicoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSetTableAdapters.PropietarioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSetTableAdapters.ProvinciaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSetTableAdapters.UsuarioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSetTableAdapters.VehiculoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Registro_Vehiculos_App.Registro_VehiculoDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Registro_Vehiculos_App.Registro_VehiculoDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Registro_Vehiculos_App.Registro_VehiculoDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Registro_Vehiculos_App.Registro_VehiculoDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Registro_Vehiculos_App.Registro_VehiculoDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Registro_Vehiculos_App.Registro_VehiculoDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Registro_Vehiculos_App.Registro_VehiculoDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Registro_Vehiculos_App.Registro_VehiculoDataSetTableAdapters.TableAdapterManager.UpdateAll(Registro_Vehiculos_App.Registro_VehiculoDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1.CantonDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1.ClaseDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1.DistritoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1.Padron_FisicoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1.Padron_JuridicoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1.PropietarioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1.ProvinciaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1.UsuarioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1.VehiculoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1.CantonRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1.ClaseRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1.DistritoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1.Padron_FisicoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1.Padron_JuridicoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1.PropietarioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1.ProvinciaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1.UsuarioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1.VehiculoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1.CantonRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1.ClaseRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1.DistritoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1.Padron_FisicoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1.Padron_JuridicoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1.PropietarioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1.ProvinciaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1.UsuarioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1.VehiculoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1TableAdapters.CantonTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1TableAdapters.ClaseTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1TableAdapters.DistritoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1TableAdapters.Padron_FisicoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1TableAdapters.Padron_JuridicoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1TableAdapters.PropietarioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1TableAdapters.ProvinciaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1TableAdapters.UsuarioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1TableAdapters.VehiculoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Registro_Vehiculos_App.Registro_VehiculoDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Registro_Vehiculos_App.Registro_VehiculoDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Registro_Vehiculos_App.Registro_VehiculoDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Registro_Vehiculos_App.Registro_VehiculoDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Registro_Vehiculos_App.Registro_VehiculoDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Registro_Vehiculos_App.Registro_VehiculoDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Registro_Vehiculos_App.Registro_VehiculoDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Registro_Vehiculos_App.Registro_VehiculoDataSet1TableAdapters.TableAdapterManager.UpdateAll(Registro_Vehiculos_App.Registro_VehiculoDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Registro_Vehiculos_App.Registro_VehiculoDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
 </members>
 </doc>

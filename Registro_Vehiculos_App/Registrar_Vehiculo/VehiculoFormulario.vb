@@ -4,7 +4,7 @@
     Private _PlacaGenerada As Boolean
     Private _Propietario As Boolean
     Private _Editando As Boolean
-    Private _Conexion As New VehiculoConexion
+    Private ReadOnly _Conexion As New VehiculoConexion
 
     Public Shared PropietarioIdentificacion As String
     Public Shared PropietarioTipoIdentificacion As Integer
@@ -140,23 +140,23 @@
     End Sub
 
     Private Sub LlenarCombos()
-        Dim TipoIdentificacionLista As New List(Of TipoIdentificacion)
-
-        TipoIdentificacionLista.Add(New TipoIdentificacion() With {.Valor = 0, .Titulo = "Fisico"})
-        TipoIdentificacionLista.Add(New TipoIdentificacion() With {.Valor = 1, .Titulo = "Juridico"})
+        Dim TipoIdentificacionLista As New List(Of TipoIdentificacion) From {
+            New TipoIdentificacion() With {.Valor = 0, .Titulo = "Fisico"},
+            New TipoIdentificacion() With {.Valor = 1, .Titulo = "Juridico"}
+        }
 
         CbxTipoIdentificacion.DataSource = (TipoIdentificacionLista)
         CbxTipoIdentificacion.DisplayMember = "Titulo"
         CbxTipoIdentificacion.ValueMember = "Valor"
 
-        Dim CapacidadLista As New List(Of Capacidad)
-
-        CapacidadLista.Add(New Capacidad() With {.Valor = 0, .Titulo = "Dos personas"})
-        CapacidadLista.Add(New Capacidad() With {.Valor = 1, .Titulo = "Tres personas"})
-        CapacidadLista.Add(New Capacidad() With {.Valor = 2, .Titulo = "Cuatro personas"})
-        CapacidadLista.Add(New Capacidad() With {.Valor = 3, .Titulo = "Cinco personas"})
-        CapacidadLista.Add(New Capacidad() With {.Valor = 4, .Titulo = "Seis personas"})
-        CapacidadLista.Add(New Capacidad() With {.Valor = 5, .Titulo = "Siete personas"})
+        Dim CapacidadLista As New List(Of Capacidad) From {
+            New Capacidad() With {.Valor = 0, .Titulo = "Dos personas"},
+            New Capacidad() With {.Valor = 1, .Titulo = "Tres personas"},
+            New Capacidad() With {.Valor = 2, .Titulo = "Cuatro personas"},
+            New Capacidad() With {.Valor = 3, .Titulo = "Cinco personas"},
+            New Capacidad() With {.Valor = 4, .Titulo = "Seis personas"},
+            New Capacidad() With {.Valor = 5, .Titulo = "Siete personas"}
+        }
 
         CbxCapacidad.DataSource = (CapacidadLista)
         CbxCapacidad.DisplayMember = "Titulo"

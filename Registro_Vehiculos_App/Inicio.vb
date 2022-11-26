@@ -9,7 +9,7 @@
         frmVehiculoLista.ShowDialog()
     End Sub
 
-    Private Sub BtnVerPropietario_Click(sender As Object, e As EventArgs) Handles BtnVerPropietario.Click
+    Private Sub BtnVerPropietario_Click(sender As Object, e As EventArgs) 
         Dim frmVehiculoLista As New BuscarPropietario
         frmVehiculoLista.ShowDialog()
     End Sub

@@ -50,9 +50,11 @@ Partial Class VehiculoVerLista
         Me.Label2 = New System.Windows.Forms.Label()
         Me.TxtNumeroPlaca = New System.Windows.Forms.TextBox()
         Me.TxtNumeroIdentificacion = New System.Windows.Forms.TextBox()
+        Me.RegistroVehiculoDataSetBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         CType(Me.DgvRegistroVehiculo, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Registro_VehiculoDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.VehiculoBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.RegistroVehiculoDataSetBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'DgvRegistroVehiculo
@@ -298,6 +300,11 @@ Partial Class VehiculoVerLista
         Me.TxtNumeroIdentificacion.Size = New System.Drawing.Size(260, 27)
         Me.TxtNumeroIdentificacion.TabIndex = 22
         '
+        'RegistroVehiculoDataSetBindingSource
+        '
+        Me.RegistroVehiculoDataSetBindingSource.DataSource = Me.Registro_VehiculoDataSet
+        Me.RegistroVehiculoDataSetBindingSource.Position = 0
+        '
         'VehiculoVerLista
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -315,6 +322,7 @@ Partial Class VehiculoVerLista
         CType(Me.DgvRegistroVehiculo, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Registro_VehiculoDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.VehiculoBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.RegistroVehiculoDataSetBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -346,4 +354,5 @@ Partial Class VehiculoVerLista
     Friend WithEvents Label2 As Label
     Friend WithEvents TxtNumeroPlaca As TextBox
     Friend WithEvents TxtNumeroIdentificacion As TextBox
+    Friend WithEvents RegistroVehiculoDataSetBindingSource As BindingSource
 End Class

@@ -1,6 +1,6 @@
 ﻿Public Class VehiculoVerLista
-    Private _Conexion As New VehiculoConexion
-    Private _VehiculoRegistro As New Vehiculo
+    Private ReadOnly _Conexion As New VehiculoConexion
+    Private ReadOnly _VehiculoRegistro As New Vehiculo
 
     Private Sub VehiculoLista_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'TODO: esta línea de código carga datos en la tabla 'Registro_VehiculoDataSet.Vehiculo' Puede moverla o quitarla según sea necesario.
