@@ -125,11 +125,6 @@
     <Compile Include="Registro_VehiculoDataSet.vb">
       <DependentUpon>Registro_VehiculoDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="Registro_VehiculoDataSet1.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Registro_VehiculoDataSet1.xsd</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Inicio.resx">
@@ -172,17 +167,6 @@
     </None>
     <None Include="Registro_VehiculoDataSet.xss">
       <DependentUpon>Registro_VehiculoDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="Registro_VehiculoDataSet1.xsc">
-      <DependentUpon>Registro_VehiculoDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="Registro_VehiculoDataSet1.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>Registro_VehiculoDataSet1.Designer.vb</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Registro_VehiculoDataSet1.xss">
-      <DependentUpon>Registro_VehiculoDataSet1.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
