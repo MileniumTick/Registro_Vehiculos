@@ -1,4 +1,4 @@
-﻿Public Class VehiculoFormulario
+﻿Public Class frmVehiculoFormulario
 
     Private _RegistroVehiculo As New Vehiculo
     Private _PlacaGenerada As Boolean

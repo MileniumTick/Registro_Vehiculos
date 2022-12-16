@@ -1,6 +1,13 @@
 C:\Cursos\VisualBasic\Progra_III\Registro_Vehiculos\Registro_Vehiculos_App\obj\Debug\Registro_Vehiculos_App.vbproj.AssemblyReference.cache
 C:\Cursos\VisualBasic\Progra_III\Registro_Vehiculos\Registro_Vehiculos_App\obj\Debug\Registro_Vehiculos_App.vbproj.SuggestedBindingRedirects.cache
+C:\Cursos\VisualBasic\Progra_III\Registro_Vehiculos\Registro_Vehiculos_App\obj\Debug\Registro_Vehiculos_App.frmLogin.resources
+C:\Cursos\VisualBasic\Progra_III\Registro_Vehiculos\Registro_Vehiculos_App\obj\Debug\Registro_Vehiculos_App.frmMantenimientoUsuario.resources
+C:\Cursos\VisualBasic\Progra_III\Registro_Vehiculos\Registro_Vehiculos_App\obj\Debug\Registro_Vehiculos_App.frmMenu.resources
 C:\Cursos\VisualBasic\Progra_III\Registro_Vehiculos\Registro_Vehiculos_App\obj\Debug\Registro_Vehiculos_App.Resources.resources
+C:\Cursos\VisualBasic\Progra_III\Registro_Vehiculos\Registro_Vehiculos_App\obj\Debug\Registro_Vehiculos_App.frmPropietarioVehiculo.resources
+C:\Cursos\VisualBasic\Progra_III\Registro_Vehiculos\Registro_Vehiculos_App\obj\Debug\Registro_Vehiculos_App.BuscarPropietario.resources
+C:\Cursos\VisualBasic\Progra_III\Registro_Vehiculos\Registro_Vehiculos_App\obj\Debug\Registro_Vehiculos_App.frmVehiculoFormulario.resources
+C:\Cursos\VisualBasic\Progra_III\Registro_Vehiculos\Registro_Vehiculos_App\obj\Debug\Registro_Vehiculos_App.frmVehiculoLista.resources
 C:\Cursos\VisualBasic\Progra_III\Registro_Vehiculos\Registro_Vehiculos_App\obj\Debug\Registro_Vehiculos_App.vbproj.GenerateResource.cache
 C:\Cursos\VisualBasic\Progra_III\Registro_Vehiculos\Registro_Vehiculos_App\obj\Debug\Registro_Vehiculos_App.vbproj.CoreCompileInputs.cache
 C:\Cursos\VisualBasic\Progra_III\Registro_Vehiculos\Registro_Vehiculos_App\bin\Debug\Registro_Vehiculos_App.exe.config
@@ -10,7 +17,3 @@ C:\Cursos\VisualBasic\Progra_III\Registro_Vehiculos\Registro_Vehiculos_App\bin\D
 C:\Cursos\VisualBasic\Progra_III\Registro_Vehiculos\Registro_Vehiculos_App\obj\Debug\Registro_Vehiculos_App.exe
 C:\Cursos\VisualBasic\Progra_III\Registro_Vehiculos\Registro_Vehiculos_App\obj\Debug\Registro_Vehiculos_App.xml
 C:\Cursos\VisualBasic\Progra_III\Registro_Vehiculos\Registro_Vehiculos_App\obj\Debug\Registro_Vehiculos_App.pdb
-C:\Cursos\VisualBasic\Progra_III\Registro_Vehiculos\Registro_Vehiculos_App\obj\Debug\Registro_Vehiculos_App.Inicio.resources
-C:\Cursos\VisualBasic\Progra_III\Registro_Vehiculos\Registro_Vehiculos_App\obj\Debug\Registro_Vehiculos_App.BuscarPropietario.resources
-C:\Cursos\VisualBasic\Progra_III\Registro_Vehiculos\Registro_Vehiculos_App\obj\Debug\Registro_Vehiculos_App.VehiculoFormulario.resources
-C:\Cursos\VisualBasic\Progra_III\Registro_Vehiculos\Registro_Vehiculos_App\obj\Debug\Registro_Vehiculos_App.VehiculoVerLista.resources

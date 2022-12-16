@@ -1,4 +1,4 @@
-﻿Public Class VehiculoVerLista
+﻿Public Class frmVehiculoLista
     Private ReadOnly _Conexion As New VehiculoConexion
     Private ReadOnly _VehiculoRegistro As New Vehiculo
 
@@ -69,7 +69,7 @@
 
         _Conexion.Buscar_Vehiculo(_VehiculoRegistro)
 
-        Dim frmVehiculoFormulario As New VehiculoFormulario
+        Dim frmVehiculoFormulario As New frmVehiculoFormulario
         frmVehiculoFormulario.Execute("Editar", _VehiculoRegistro)
 
         _Conexion.BuscarVehiculoLista(TxtNumeroIdentificacion.Text, TxtNumeroPlaca.Text, DgvRegistroVehiculo)

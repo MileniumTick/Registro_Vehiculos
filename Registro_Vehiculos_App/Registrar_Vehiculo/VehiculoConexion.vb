@@ -2,7 +2,7 @@
 Imports System.Windows.Forms.VisualStyles.VisualStyleElement
 
 Public Class VehiculoConexion
-    Private ReadOnly _Conexion As New SqlConnection("Data Source = DESKTOP-1TF7V40\SQLEXPRESS; Initial Catalog=Registro_Vehiculo; trusted_connection=true")
+    Private ReadOnly _Conexion As New SqlConnection(My.Resources.ConexionSQL)
     Private _Comando As SqlCommand
     Private _Adapter As SqlDataAdapter
     Private ReadOnly _Data As New DataSet()

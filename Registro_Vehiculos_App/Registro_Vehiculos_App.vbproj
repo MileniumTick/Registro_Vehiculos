@@ -73,10 +73,23 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Inicio.Designer.vb">
-      <DependentUpon>Inicio.vb</DependentUpon>
+    <Compile Include="frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
     </Compile>
-    <Compile Include="Inicio.vb">
+    <Compile Include="frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento_Usuario\Conexion_Usuario.vb" />
+    <Compile Include="Mantenimiento_Usuario\frmMantenimientoUsuario.Designer.vb">
+      <DependentUpon>frmMantenimientoUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento_Usuario\frmMantenimientoUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.vb">
+      <DependentUpon>frmMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -95,6 +108,14 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Propietarios_Vehiculo\Conexion_Propietario.vb" />
+    <Compile Include="Propietarios_Vehiculo\frmPropietarioVehiculo.Designer.vb">
+      <DependentUpon>frmPropietarioVehiculo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Propietarios_Vehiculo\frmPropietarioVehiculo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Propietarios_Vehiculo\Funciones_Propietario.vb" />
     <Compile Include="Registrar_Vehiculo\BuscarPropietario.Designer.vb">
       <DependentUpon>BuscarPropietario.vb</DependentUpon>
     </Compile>
@@ -105,16 +126,16 @@
     <Compile Include="Registrar_Vehiculo\TipoIdentificacion.vb" />
     <Compile Include="Registrar_Vehiculo\Vehiculo.vb" />
     <Compile Include="Registrar_Vehiculo\VehiculoConexion.vb" />
-    <Compile Include="Registrar_Vehiculo\VehiculoFormulario.Designer.vb">
-      <DependentUpon>VehiculoFormulario.vb</DependentUpon>
+    <Compile Include="Registrar_Vehiculo\frmVehiculoFormulario.Designer.vb">
+      <DependentUpon>frmVehiculoFormulario.vb</DependentUpon>
     </Compile>
-    <Compile Include="Registrar_Vehiculo\VehiculoFormulario.vb">
+    <Compile Include="Registrar_Vehiculo\frmVehiculoFormulario.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Registrar_Vehiculo\VehiculoVerLista.Designer.vb">
-      <DependentUpon>VehiculoVerLista.vb</DependentUpon>
+    <Compile Include="Registrar_Vehiculo\frmVehiculoLista.Designer.vb">
+      <DependentUpon>frmVehiculoLista.vb</DependentUpon>
     </Compile>
-    <Compile Include="Registrar_Vehiculo\VehiculoVerLista.vb">
+    <Compile Include="Registrar_Vehiculo\frmVehiculoLista.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Registro_VehiculoDataSet.Designer.vb">
@@ -127,23 +148,32 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Inicio.resx">
-      <DependentUpon>Inicio.vb</DependentUpon>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento_Usuario\frmMantenimientoUsuario.resx">
+      <DependentUpon>frmMantenimientoUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
-      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <Generator>PublicVbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Propietarios_Vehiculo\frmPropietarioVehiculo.resx">
+      <DependentUpon>frmPropietarioVehiculo.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Registrar_Vehiculo\BuscarPropietario.resx">
       <DependentUpon>BuscarPropietario.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Registrar_Vehiculo\VehiculoFormulario.resx">
-      <DependentUpon>VehiculoFormulario.vb</DependentUpon>
+    <EmbeddedResource Include="Registrar_Vehiculo\frmVehiculoFormulario.resx">
+      <DependentUpon>frmVehiculoFormulario.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Registrar_Vehiculo\VehiculoVerLista.resx">
-      <DependentUpon>VehiculoVerLista.vb</DependentUpon>
+    <EmbeddedResource Include="Registrar_Vehiculo\frmVehiculoLista.resx">
+      <DependentUpon>frmVehiculoLista.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

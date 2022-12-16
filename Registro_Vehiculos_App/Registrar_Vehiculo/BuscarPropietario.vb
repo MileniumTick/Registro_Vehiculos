@@ -3,9 +3,6 @@
     Private ContarRegistroPropietario As Integer
     Private PropietarioEncontrado As Boolean
 
-    Private Sub BuscarPropietario_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-    End Sub
-
     Public Function Execute(TipoIdentificacion As Integer, Identificacion As String, Primero As Boolean) As Boolean
         Try
             If Primero Then
@@ -19,17 +16,17 @@
 
             If ContarRegistroPropietario = 0 Then
                 MessageBox.Show($"No se encontro el propietario con la identificacion {Identificacion} y el tipo {TipoIdentificacion}")
-                VehiculoFormulario.Enabled = True
+                frmVehiculoFormulario.Enabled = True
                 Close()
                 Return False
             End If
 
             If ContarRegistroPropietario = 1 Then
-                VehiculoFormulario.PropietarioIdentificacion = RegistroPropietario.First.Numero_Identificacion
-                VehiculoFormulario.PropietarioTipoIdentificacion = RegistroPropietario.First.Tipo_Identificacion
+                frmVehiculoFormulario.PropietarioIdentificacion = RegistroPropietario.First.Numero_Identificacion
+                frmVehiculoFormulario.PropietarioTipoIdentificacion = RegistroPropietario.First.Tipo_Identificacion
 
                 MessageBox.Show($"Se encontro el propietario con la identificacion {RegistroPropietario.First.Numero_Identificacion} y el tipo {RegistroPropietario.First.Tipo_Identificacion}")
-                VehiculoFormulario.Enabled = True
+                frmVehiculoFormulario.Enabled = True
                 Close()
                 Return True
             End If
