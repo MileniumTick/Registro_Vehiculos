@@ -2,6 +2,19 @@
 
 Public Class frmLogin
     Private Sub btnIngresar_Click(sender As Object, e As EventArgs) Handles btnIngresar.Click
+        Login()
+    End Sub
+
+    Private Sub btnSalir_Click(sender As Object, e As EventArgs) Handles btnSalir.Click
+        Application.Exit()
+    End Sub
+
+    Private Sub LblRegistrar_Click(sender As Object, e As EventArgs) Handles LblRegistrar.Click
+        Hide()
+        frmRegistro.ShowDialog()
+    End Sub
+
+    Private Sub Login()
         Try
             UsuarioTableAdapter.Fill(Registro_VehiculoDataSet.Usuario)
 
@@ -11,14 +24,24 @@ Public Class frmLogin
             Dim clave As String = Encrypt(txtClave.Text, txtClave.Text.Length)
 
             Usuarios = From u In Registro_VehiculoDataSet.Usuario
-                       Where (u.Correo.ToLower = txtCorreoElec.Text.ToLower Or u.Nombre.ToLower = txtCorreoElec.Text.ToLower) And u.Clave = clave
+                       Where (u.Correo.ToLower = txtCorreoElec.Text.ToLower Or u.Nombre.ToLower = txtCorreoElec.Text.ToLower)
 
             If Usuarios.Count = 0 Then
-                MessageBox.Show("No existe ningun usuario en la base de datos digite el usuario o contraseña de forma correcta")
-                Return
+                If txtCorreoElec.Focus() Then
+                    MessageBox.Show("No existe ningun usuario en la base de datos")
+                End If
+                Exit Sub
             End If
 
-            Usuario = Usuarios.First
+            Usuario = Usuarios?.First
+
+            If Usuario.Clave <> clave Then
+                If txtClave.Focus() Then
+                    MessageBox.Show("La clave ingresada no es correcta vuelve a intentarlo")
+                End If
+                Exit Sub
+            End If
+
 
             If Not Usuario.IsNull(0) Then
                 MessageBox.Show($"Se realizo el login con el usuario: {Usuario.Nombre}", "Login")
@@ -34,12 +57,15 @@ Public Class frmLogin
         End Try
     End Sub
 
-    Private Sub btnSalir_Click(sender As Object, e As EventArgs) Handles btnSalir.Click
-        Application.Exit()
+    Private Sub txtCorreoElec_KeyDown(sender As Object, e As KeyEventArgs) Handles txtCorreoElec.KeyDown
+        If e.KeyValue = 13 Then
+            Login()
+        End If
     End Sub
 
-    Private Sub LblRegistrar_Click(sender As Object, e As EventArgs) Handles LblRegistrar.Click
-        Hide()
-        frmRegistro.ShowDialog()
+    Private Sub txtClave_KeyDown(sender As Object, e As KeyEventArgs) Handles txtClave.KeyDown
+        If e.KeyValue = 13 Then
+            Login()
+        End If
     End Sub
 End Class

@@ -144,8 +144,9 @@ Partial Class frmLogin
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.lblCorreoElec)
         Me.Controls.Add(Me.txtCorreoElec)
+        Me.ImeMode = System.Windows.Forms.ImeMode.[On]
         Me.Name = "frmLogin"
-        Me.Text = "frmLogin"
+        Me.Text = "Login"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Registro_VehiculoDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.UsuarioBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
