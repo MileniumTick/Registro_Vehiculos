@@ -57,7 +57,7 @@ Partial Class frmRegistro
         Me.btnSalir.Location = New System.Drawing.Point(416, 233)
         Me.btnSalir.Name = "btnSalir"
         Me.btnSalir.Size = New System.Drawing.Size(133, 43)
-        Me.btnSalir.TabIndex = 27
+        Me.btnSalir.TabIndex = 4
         Me.btnSalir.Text = "Salir"
         Me.btnSalir.UseVisualStyleBackColor = True
         '
@@ -67,7 +67,7 @@ Partial Class frmRegistro
         Me.btnGuardar.Location = New System.Drawing.Point(263, 233)
         Me.btnGuardar.Name = "btnGuardar"
         Me.btnGuardar.Size = New System.Drawing.Size(133, 43)
-        Me.btnGuardar.TabIndex = 26
+        Me.btnGuardar.TabIndex = 5
         Me.btnGuardar.Text = "Registrar"
         Me.btnGuardar.UseVisualStyleBackColor = True
         '
@@ -77,7 +77,7 @@ Partial Class frmRegistro
         Me.TxtClave.Name = "TxtClave"
         Me.TxtClave.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TxtClave.Size = New System.Drawing.Size(286, 22)
-        Me.TxtClave.TabIndex = 25
+        Me.TxtClave.TabIndex = 3
         '
         'PictureBox1
         '
@@ -104,7 +104,7 @@ Partial Class frmRegistro
         Me.TxtNombre.Location = New System.Drawing.Point(262, 53)
         Me.TxtNombre.Name = "TxtNombre"
         Me.TxtNombre.Size = New System.Drawing.Size(286, 22)
-        Me.TxtNombre.TabIndex = 22
+        Me.TxtNombre.TabIndex = 1
         '
         'Registro_VehiculoDataSet
         '
@@ -135,7 +135,7 @@ Partial Class frmRegistro
         Me.TxtCorreo.Location = New System.Drawing.Point(263, 115)
         Me.TxtCorreo.Name = "TxtCorreo"
         Me.TxtCorreo.Size = New System.Drawing.Size(286, 22)
-        Me.TxtCorreo.TabIndex = 29
+        Me.TxtCorreo.TabIndex = 2
         '
         'frmRegistro
         '

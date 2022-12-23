@@ -56,7 +56,7 @@ Partial Class frmLogin
         Me.btnSalir.Location = New System.Drawing.Point(432, 217)
         Me.btnSalir.Name = "btnSalir"
         Me.btnSalir.Size = New System.Drawing.Size(133, 43)
-        Me.btnSalir.TabIndex = 20
+        Me.btnSalir.TabIndex = 3
         Me.btnSalir.Text = "Salir"
         Me.btnSalir.UseVisualStyleBackColor = True
         '
@@ -66,7 +66,7 @@ Partial Class frmLogin
         Me.btnIngresar.Location = New System.Drawing.Point(279, 217)
         Me.btnIngresar.Name = "btnIngresar"
         Me.btnIngresar.Size = New System.Drawing.Size(133, 43)
-        Me.btnIngresar.TabIndex = 19
+        Me.btnIngresar.TabIndex = 4
         Me.btnIngresar.Text = "Ingresar"
         Me.btnIngresar.UseVisualStyleBackColor = True
         '
@@ -76,7 +76,7 @@ Partial Class frmLogin
         Me.txtClave.Name = "txtClave"
         Me.txtClave.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.txtClave.Size = New System.Drawing.Size(286, 22)
-        Me.txtClave.TabIndex = 18
+        Me.txtClave.TabIndex = 2
         '
         'PictureBox1
         '
@@ -103,7 +103,7 @@ Partial Class frmLogin
         Me.txtCorreoElec.Location = New System.Drawing.Point(279, 71)
         Me.txtCorreoElec.Name = "txtCorreoElec"
         Me.txtCorreoElec.Size = New System.Drawing.Size(286, 22)
-        Me.txtCorreoElec.TabIndex = 15
+        Me.txtCorreoElec.TabIndex = 1
         '
         'Registro_VehiculoDataSet
         '
@@ -127,9 +127,9 @@ Partial Class frmLogin
         Me.LblRegistrar.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.LblRegistrar.Location = New System.Drawing.Point(275, 185)
         Me.LblRegistrar.Name = "LblRegistrar"
-        Me.LblRegistrar.Size = New System.Drawing.Size(89, 20)
+        Me.LblRegistrar.Size = New System.Drawing.Size(120, 25)
         Me.LblRegistrar.TabIndex = 22
-        Me.LblRegistrar.Text = "Registate"
+        Me.LblRegistrar.Text = "Registrate"
         '
         'frmLogin
         '
