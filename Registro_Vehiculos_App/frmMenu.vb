@@ -1,9 +1,7 @@
 ﻿Public Class frmMenu
     Public Sub Execute(usuario As Registro_VehiculoDataSet.UsuarioRow)
         Dim Admin As Boolean = usuario.Tipo_Usuario = "Admin"
-
         MantenimientoToolStripMenuItem.Visible = Admin
-        ReportesToolStripMenuItem.Visible = Admin
 
         Show()
     End Sub

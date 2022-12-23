@@ -1,5 +1,4 @@
 ﻿Imports System.Data.SqlClient
-Imports System.Windows.Forms.VisualStyles.VisualStyleElement
 
 Public Class VehiculoConexion
     Private ReadOnly _Conexion As New SqlConnection(My.Resources.ConexionSQL)

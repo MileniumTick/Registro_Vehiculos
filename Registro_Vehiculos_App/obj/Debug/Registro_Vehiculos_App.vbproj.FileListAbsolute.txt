@@ -17,3 +17,4 @@ C:\Cursos\VisualBasic\Progra_III\Registro_Vehiculos\Registro_Vehiculos_App\bin\D
 C:\Cursos\VisualBasic\Progra_III\Registro_Vehiculos\Registro_Vehiculos_App\obj\Debug\Registro_Vehiculos_App.exe
 C:\Cursos\VisualBasic\Progra_III\Registro_Vehiculos\Registro_Vehiculos_App\obj\Debug\Registro_Vehiculos_App.xml
 C:\Cursos\VisualBasic\Progra_III\Registro_Vehiculos\Registro_Vehiculos_App\obj\Debug\Registro_Vehiculos_App.pdb
+C:\Cursos\VisualBasic\Progra_III\Registro_Vehiculos\Registro_Vehiculos_App\obj\Debug\Registro_Vehiculos_App.frmRegistro.resources

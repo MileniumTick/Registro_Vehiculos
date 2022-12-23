@@ -73,10 +73,17 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConexionLogin.vb" />
     <Compile Include="frmLogin.Designer.vb">
       <DependentUpon>frmLogin.vb</DependentUpon>
     </Compile>
     <Compile Include="frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegistro.Designer.vb">
+      <DependentUpon>frmRegistro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegistro.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Mantenimiento_Usuario\Conexion_Usuario.vb" />
@@ -115,7 +122,7 @@
     <Compile Include="Propietarios_Vehiculo\frmPropietarioVehiculo.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Propietarios_Vehiculo\Funciones_Propietario.vb" />
+    <Compile Include="Funciones.vb" />
     <Compile Include="Registrar_Vehiculo\BuscarPropietario.Designer.vb">
       <DependentUpon>BuscarPropietario.vb</DependentUpon>
     </Compile>
@@ -150,6 +157,9 @@
   <ItemGroup>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegistro.resx">
+      <DependentUpon>frmRegistro.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Mantenimiento_Usuario\frmMantenimientoUsuario.resx">
       <DependentUpon>frmMantenimientoUsuario.vb</DependentUpon>

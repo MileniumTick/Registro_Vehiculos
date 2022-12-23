@@ -8,11 +8,13 @@ Public Class frmLogin
             Dim Usuario As Registro_VehiculoDataSet.UsuarioRow
             Dim Usuarios As EnumerableRowCollection(Of Registro_VehiculoDataSet.UsuarioRow)
 
+            Dim clave As String = Encrypt(txtClave.Text, txtClave.Text.Length)
+
             Usuarios = From u In Registro_VehiculoDataSet.Usuario
-                       Where (u.Correo = txtCorreoElec.Text Or u.Nombre = txtCorreoElec.Text) And u.Clave = txtClave.Text
+                       Where (u.Correo.ToLower = txtCorreoElec.Text.ToLower Or u.Nombre.ToLower = txtCorreoElec.Text.ToLower) And u.Clave = clave
 
             If Usuarios.Count = 0 Then
-                MessageBox.Show("No existe ningun usuario en al base de datos")
+                MessageBox.Show("No existe ningun usuario en la base de datos digite el usuario o contraseña de forma correcta")
                 Return
             End If
 
@@ -34,5 +36,10 @@ Public Class frmLogin
 
     Private Sub btnSalir_Click(sender As Object, e As EventArgs) Handles btnSalir.Click
         Application.Exit()
+    End Sub
+
+    Private Sub LblRegistrar_Click(sender As Object, e As EventArgs) Handles LblRegistrar.Click
+        Hide()
+        frmRegistro.ShowDialog()
     End Sub
 End Class

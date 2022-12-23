@@ -29,7 +29,6 @@ Partial Class frmMenu
         Me.BuscarPropietarioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BuscarVehiculoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NuevoRegistroDeVehiculoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ReportesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CerrarSesionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SalirToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
@@ -41,7 +40,7 @@ Partial Class frmMenu
         'MenuStrip1
         '
         Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MantenimientoToolStripMenuItem, Me.CapturaToolStripMenuItem, Me.ReportesToolStripMenuItem, Me.SalirToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MantenimientoToolStripMenuItem, Me.CapturaToolStripMenuItem, Me.SalirToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(800, 28)
@@ -79,12 +78,6 @@ Partial Class frmMenu
         Me.NuevoRegistroDeVehiculoToolStripMenuItem.Size = New System.Drawing.Size(293, 26)
         Me.NuevoRegistroDeVehiculoToolStripMenuItem.Text = "Nuevo registro de vehiculo"
         '
-        'ReportesToolStripMenuItem
-        '
-        Me.ReportesToolStripMenuItem.Name = "ReportesToolStripMenuItem"
-        Me.ReportesToolStripMenuItem.Size = New System.Drawing.Size(82, 24)
-        Me.ReportesToolStripMenuItem.Text = "Reportes"
-        '
         'SalirToolStripMenuItem
         '
         Me.SalirToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CerrarSesionToolStripMenuItem, Me.SalirToolStripMenuItem1})
@@ -95,13 +88,13 @@ Partial Class frmMenu
         'CerrarSesionToolStripMenuItem
         '
         Me.CerrarSesionToolStripMenuItem.Name = "CerrarSesionToolStripMenuItem"
-        Me.CerrarSesionToolStripMenuItem.Size = New System.Drawing.Size(177, 26)
+        Me.CerrarSesionToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.CerrarSesionToolStripMenuItem.Text = "Cerrar sesion"
         '
         'SalirToolStripMenuItem1
         '
         Me.SalirToolStripMenuItem1.Name = "SalirToolStripMenuItem1"
-        Me.SalirToolStripMenuItem1.Size = New System.Drawing.Size(177, 26)
+        Me.SalirToolStripMenuItem1.Size = New System.Drawing.Size(224, 26)
         Me.SalirToolStripMenuItem1.Text = "Salir"
         '
         'PictureBox1
@@ -137,7 +130,6 @@ Partial Class frmMenu
     Friend WithEvents BuscarPropietarioToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents BuscarVehiculoToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents NuevoRegistroDeVehiculoToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ReportesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SalirToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents CerrarSesionToolStripMenuItem As ToolStripMenuItem
