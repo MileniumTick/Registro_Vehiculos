@@ -47,8 +47,10 @@ Public Class Conexion_Propietario
         Catch ex As Exception
             MessageBox.Show("Error: " + ex.ToString())
             f = 1
+            conexion.Close()
             Return False
         Finally
+            conexion.Close()
         End Try
 
     End Function

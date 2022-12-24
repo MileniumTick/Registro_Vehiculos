@@ -5,8 +5,7 @@ Public Class frmPropietarioVehiculo
     Private Sub Captura_Datos_del_propietario_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'TODO: esta línea de código carga datos en la tabla 'Registro_VehiculoDataSet.Propietario' Puede moverla o quitarla según sea necesario.
         Me.PropietarioTableAdapter.Fill(Me.Registro_VehiculoDataSet.Propietario)
-        'TODO: esta línea de código carga datos en la tabla 'REGISTRO_VEHICULODataSet.Propietario' Puede moverla o quitarla según sea necesario.
-        Me.PropietarioTableAdapter.Fill(Me.Registro_VehiculoDataSet.Propietario)
+
         CONEXION.conectar()
         ' cargando provincia y va a llenar el combox con los datos de la provincia
         Dim dt = CONEXION.cargar_provincia()
@@ -212,6 +211,8 @@ Public Class frmPropietarioVehiculo
             End If
         Catch ex As Exception
             MessageBox.Show("ERRO AL GUARDAR LOS DATOS, POR FAVOR REVISE")
+        Finally
+            refrescar()
         End Try
 
     End Sub
@@ -253,7 +254,7 @@ Public Class frmPropietarioVehiculo
                     vcorreo = txtcorreo.Text
                     vdireccion = txtdireccion.Text
                     If MessageBox.Show("Esta seguro de modificar el registro en la base de datos?", "Confimacion", MessageBoxButtons.YesNo, MessageBoxIcon.Information) = Windows.Forms.DialogResult.Yes Then
-                        sql = "UPDATE PROPIETARIO SET TIPO_IDENTIFICACION = '" & vtipoid & "', NUMERO_IDENTIFICACION= '" & videntificacion & "' , NOMBRE= '" & vnombre & "' , PRIMER_APELLIDO= '" & vapellido1 & "' , SEGUNDO_APELLIDO= '" & vapellido2 & "' , CORREO_ELECTRONICO= '" & vcorreo & "' , DIRECCION='" & vdireccion & "'"
+                        sql = $"UPDATE PROPIETARIO SET NOMBRE= '{vnombre}' , PRIMER_APELLIDO= '{vapellido1}' , SEGUNDO_APELLIDO= '{vapellido2}' , CORREO_ELECTRONICO= '{vcorreo}' , DIRECCION='{vdireccion}' WHERE Numero_Identificacion = '{videntificacion}' AND TIPO_IDENTIFICACION = {vtipoid}"
                         MsgBox(sql)
                         CONEXION.actualizar(sql)
                         If f = 0 Then
@@ -269,9 +270,12 @@ Public Class frmPropietarioVehiculo
             MessageBox.Show("Error: " + ex.ToString())
 
         Finally
-
+            refrescar()
         End Try
 
     End Sub
-
+    Private Sub refrescar()
+        'TODO: esta línea de código carga datos en la tabla 'REGISTRO_VEHICULODataSet.Propietario' Puede moverla o quitarla según sea necesario.
+        Me.PropietarioTableAdapter.Fill(Me.Registro_VehiculoDataSet.Propietario)
+    End Sub
 End Class
