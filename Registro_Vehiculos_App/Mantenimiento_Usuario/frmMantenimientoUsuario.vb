@@ -25,14 +25,10 @@
         conexion.consultarNombre(txtNombre1.Text, dgvDatos)
     End Sub
 
-    Private Sub txtNombre1_TextChanged(sender As Object, e As EventArgs)
-        txtNombre1.Text = txtNombre.Text
-    End Sub
-
     Private Sub btnModificar_Click(sender As Object, e As EventArgs) Handles btnModificar.Click
         Dim actualizar As String = " Tipo_Usuario = '" + cmbTipo_usuario.Text + "'"
         Dim condicion As String = " Correo = '" + txtCorreo.Text + "'"
-        If (conexion.Actualizar("Usuario", actualizar, condicion)) Then
+        If conexion.Actualizar("Usuario", actualizar, condicion) Then
             MessageBox.Show("Datos actualizados")
             MostrarDatos()
         Else

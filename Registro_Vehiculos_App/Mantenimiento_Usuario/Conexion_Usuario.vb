@@ -39,7 +39,7 @@ Public Class Conexion_Usuario
         da.Fill(ds, tabla)
     End Sub
 
-    Function Actualizar(ByVal tabla, ByVal campos, ByVal condicion)
+    Function Actualizar(tabla, campos, condicion) As Boolean
         conexion.Open()
         Dim actualiza As String = " update " + tabla + " set " + campos + " where " + condicion
         comando = New SqlCommand(actualiza, conexion)
